@@ -1,0 +1,34 @@
+<!--Lab 2 Ingenieria de software
+    Operaciones sobre numeros complejos
+    @author Adalid Flores Gomez
+    @version 1.0
+    @date 2024-02-29-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complex Number Operations</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1>Complex Number Operations</h1>
+    <form onsubmit="event.preventDefault(); performOperation();">
+        <label for="real1">Real 1:</label>
+        <input type="number" id="real1" required>
+        <br>
+        <label for="img1">Imaginary 1:</label>
+        <input type="number" id="img1" required>
+        <br>
+        <label for="real2">Real 2:</label>
+        <input type="number" id="real2" required>
+        <br>
+        <label for="img2">Imaginary 2:</label>
+        <input type="number" id="img2" required>
+        <br>
+        <button type="submit">Perform Operations</button>
+    </form>
+    <h2>Results:</h2>
+    <p id="additionResult"></p>
+    <p id="subtractionResult"></p>
+    <p id="multiplicationResult"></p>
+</body>
+</html>
